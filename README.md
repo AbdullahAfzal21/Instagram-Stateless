@@ -8,4 +8,20 @@ These are the Api which does not store any kind of the data of the user . It doe
 Authentication means that are are eligble to enter to the page or not like you are logging in in any social media the process he is checking your password is called Authentication.Thats mean you are a authentic person so you logged in.
 
 <h2>Authorization</h2>
-Authorization means that you have the authority to do this work or not .Like a user can delete or change his post but cannot change or delete the post of his friend because he doesnot have that authority
+Authorization means that you have the authority to do this work or not .Like a user can delete or change his post but cannot change or delete the post of his friend because he doesnot have that authority to do that work so this is called authorization like you are authorize to do that work.
+
+<h2>Public API</h2>
+Public Api  are that which you can see and view data with out authorization and authentication .
+
+<h2>Private API</h2>
+You can see the public API but in Private API you are bound to login first to use that function.
+
+<h4>Now lets starts about Instagram where these all are used according to the concepts i tell you.</h4>
+
+<h2>Login</h2>
+Login involves authorization its checks that the user and passwordyou send are right it send the data to a end point where the BE access that data and send it to DB and then match that data if its match then give access to next page . Then that BE API will give you a token which will in future tells that you are authentic or not and then break connection.
+
+<h2>After Login</h2>
+After login the token which you recieved is again send to the Api because you want your data in your feed now it will check and decide you are authorize to do this work this is called authorization like some accounts are business private every accout has its own limit.
+
+<h2>After Login</h2>
