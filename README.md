@@ -24,4 +24,14 @@ Login involves authorization its checks that the user and passwordyou send are r
 <h2>After Login</h2>
 After login the token which you recieved is again send to the Api because you want your data in your feed now it will check and decide you are authorize to do this work this is called authorization like some accounts are business private every accout has its own limit.
 
-<h2>After Login</h2>
+<h2>Actions on Instagram</h2>
+Actions like post like comment etc are done by stateless Api also it send it token and then the action is performed.
+
+<h2>Public Key</h2>
+Like you are searching some one account on goggle and you can see his profile if he is not private this is called Public Api like Public can see your data etc.
+
+<h2>Private  Key</h2>
+Like now you want to do comment on his post but now he will ask that login first now that is private Api that you can do that work after login.
+
+<h2>Content Feed</h2>
+Now Instagram will you contant according your area trending things which are also store in some DB but the api will get that data according to your area.
